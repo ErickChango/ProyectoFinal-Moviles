@@ -61,7 +61,7 @@ export const ModalCart = ({ visible, setShowModal, cart, resetCart }: Props) => 
                             />
                             <View style={styles.footerModal}>
                                 <Text style={styles.totalText}>Total: ${totalPay()}</Text>
-                                {/* el botón llama a la función resetCart para vaciar el carrito y cerrar el modal
+                                {/* el boton llama a la funcion resetCart para vaciar el carrito y cerrar el modal
 */}
                                 <ButtonComponent
                                     textButton="Comprar"
@@ -70,9 +70,9 @@ export const ModalCart = ({ visible, setShowModal, cart, resetCart }: Props) => 
                             </View>
                         </>
                     ) : (
-                        // mensaje para cuando el carrito está vacío
+                        // mensaje para cuando el carrito esta vacio
                         <View style={styles.emptyCartContainer}>
-                            <Text style={styles.emptyCartText}>El carrito está vacío.</Text>
+                            <Text style={styles.emptyCartText}>El carrito esta vacio.</Text>
                         </View>
                     )}
                 </View>
