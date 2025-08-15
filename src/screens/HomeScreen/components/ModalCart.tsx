@@ -61,13 +61,8 @@ export const ModalCart = ({ visible, setShowModal, cart, resetCart }: Props) => 
                             />
                             <View style={styles.footerModal}>
                                 <Text style={styles.totalText}>Total: ${totalPay()}</Text>
-<<<<<<< HEAD
                                 {/* el boton llama a la funcion resetCart para vaciar el carrito y cerrar el modal*/}
-=======
-                                {/* el boton llama a la funcion resetCart para vaciar el carrito y cerrar el modal
-*/}
->>>>>>> 08b19e74d20928a27348f9c032a657e74073c0a0
-                                <ButtonComponent
+a                                <ButtonComponent
                                     textButton="Comprar"
                                     handleLogin={resetCart}
                                 />
